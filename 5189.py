@@ -2,9 +2,6 @@
 
 import itertools
 
-T = int(input())
-N = 0
-
 
 def search(table, numbers, index):
     global N
@@ -18,6 +15,8 @@ def search(table, numbers, index):
 
     return table[x][y] + search(table, numbers, index + 1)
 
+
+T = int(input())
 
 for test_case in range(1, T + 1):
     N = int(input())
