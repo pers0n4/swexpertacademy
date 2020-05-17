@@ -1,6 +1,7 @@
 # 최소합
 # pass 9/10
 
+
 def search(table, x, y, total, result):
     total += table[y][x]
 

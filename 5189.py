@@ -1,4 +1,5 @@
 # 전자키트
+# pass
 
 import itertools
 
