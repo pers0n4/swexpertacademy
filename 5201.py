@@ -1,8 +1,7 @@
 # 컨테이너 운반
-# pass
+# 10/10
 
 T = int(input())
-
 for test_case in range(1, T + 1):
     N, M = list(map(int, input().split()))
     w = list(map(int, input().split()))

@@ -1,5 +1,5 @@
 # 퀵 정렬
-# pass
+# 10/10
 
 
 def quick_sort(arr, method="hoare"):
@@ -48,7 +48,6 @@ def quick_sort(arr, method="hoare"):
 
 
 T = int(input())
-
 for test_case in range(1, T + 1):
     N = int(input())
     arr = list(map(int, input().split()))

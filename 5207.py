@@ -1,9 +1,5 @@
 # 이진 탐색
-# pass 5/10
-
-import sys
-
-sys.stdin = open("input.txt", "r")
+# 5/10
 
 
 def binary_search(value, target, low, high):
@@ -20,7 +16,6 @@ def binary_search(value, target, low, high):
 
 
 T = int(input())
-
 for test_case in range(1, T + 1):
     N, M = list(map(int, input().split()))
     A = list(map(int, input().split()))
