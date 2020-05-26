@@ -1,6 +1,7 @@
 # 최소 생산 비용
 # 10/10
 
+
 def dfs(G):
     check = [False] * N
     mini = sum([sum(l) for l in G])
