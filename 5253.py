@@ -10,9 +10,8 @@ for test_case in range(1, T + 1):
     is_prefix = [False] * M
     for i, b in enumerate(B):
         for a in A:
-            if is_prefix[i]:
-                break
             if a.startswith(b):
                 is_prefix[i] = True
+                break
 
     print(f"#{test_case} {sum(is_prefix)}")
