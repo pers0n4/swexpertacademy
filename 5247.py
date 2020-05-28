@@ -22,7 +22,6 @@ def calc(begin, end, count):
 
 
 T = int(input())
-
 for test_case in range(1, T + 1):
     N, M = map(int, input().split())
 
