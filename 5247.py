@@ -1,5 +1,5 @@
 # 연산
-# pass 3/10
+# 3/10
 
 
 def calc(begin, end, count):
